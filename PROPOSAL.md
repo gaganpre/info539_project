@@ -47,8 +47,8 @@ The project will be developed in a series of stages:
 
 ---
 
-Repo link: [info539_project](https://github.com/gaganpre/info539_project)
-Proposal: [PROPOSAL.md](https://github.com/gaganpre/info539_project/blob/main/PROPOSAL.md)
+- Repo link: [info539_project](https://github.com/gaganpre/info539_project)
+- Proposal: [PROPOSAL.md](https://github.com/gaganpre/info539_project/blob/main/PROPOSAL.md)
+- Github Page: [gaganpre.github.io](https://gaganpre.github.io/)
 
-Github Page: [gaganpre.github.io](https://gaganpre.github.io/)
-
+---
