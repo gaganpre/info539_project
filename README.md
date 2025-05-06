@@ -9,4 +9,8 @@ You can find the full project on GitHub: [info539_project](https://github.com/ga
 Read the full proposal [here](https://github.com/gaganpre/info539_project/blob/main/PROPOSAL.md).
 
 
+### Project Notbook :
+
+https://gaganpre.github.io/info539_project/project.html
+
 
