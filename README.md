@@ -2,16 +2,6 @@
 
 ## NLP-Powered Financial News Analysis for Market Insights
 
-### Project Proposal
-
-Read the full proposal [here](https://github.com/gaganpre/info539_project/blob/main/PROPOSAL.md).
-
-### Project Repo :
-You can find the full project on GitHub: [info539_project](https://github.com/gaganpre/info539_project)
-
-### Project Notbook :
-
-https://gaganpre.github.io/info539_project/project.html
 
 # Project: NLP-Powered Financial News Analysis for Market Insights
 
@@ -37,6 +27,28 @@ All required packages are listed in `requirements.txt`. Install them using pip:
 ```bash
 pip install -r requirements.txt
 ```
+
+If you are using *uv* as a package manager:
+
+```bash
+pip install uv
+uv sync 
+```
+
+Downloading glove:
+```bash
+# Run only once 
+# Download Glove word embeddings model
+# if glove.6B.zip is not present in the current directory
+   if [ ! -f glove.6B.zip ]
+   then
+      echo "Glove model file not found! downloading..";
+      wget http://nlp.stanford.edu/data/glove.6B.zip; unzip glove.6B.zip;
+      else echo "File found! skipping download..."
+   fi
+   ls -l glove.*
+```
+
 
 ## Usage
 The Jupyter notebook `project.ipynb` demonstrates the following workflow:
@@ -69,6 +81,16 @@ The Jupyter notebook `project.ipynb` demonstrates the following workflow:
     * Aggregates news articles on a weekly basis.
     * Uses a Large Language Model (Mistral-7B-Instruct-v0.2-GGUF) to summarize the top 3 positive and negative weekly events affecting stock performance.
     * Parses the JSON output from the LLM.
+
+
+## Project Proposal
+Read the full proposal [here](https://github.com/gaganpre/info539_project/blob/main/PROPOSAL.md).
+
+## Project Repo :
+You can find the full project on GitHub: [info539_project](https://github.com/gaganpre/info539_project)
+
+## Project Notbook :
+https://gaganpre.github.io/info539_project/project.html
 
 
 
